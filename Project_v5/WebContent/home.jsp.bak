@@ -1,0 +1,56 @@
+<div class="container px-4 py-5 align-items-center justify-content-center" id="featured-3">
+  <div class="row">
+        <div class="col-6">
+            <h2 class="pb-2 mb-3 border-bottom">User Links</h2>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="index.jsp?q=listprod.jsp&t=Products">Begin Shopping</a>
+                    </div>
+                    Cras justo odio
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="index.jsp?q=customer.jsp&t=Customer Info">Customer Info</a>
+                        
+                    </div>
+                    Cras justo odio
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="index.jsp?q=admin.jsp&t=Admin Page">Administrators</a>
+                    </div>
+                    Cras justo odio
+                  </div>
+                </li>
+            </ol>        
+        </div>
+        <div class="col-6">
+            <h2 class="pb-2 mb-3 border-bottom">Test Links</h2>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="index.jsp?q=ship.jsp$orderId=1&t=Ship Order">Ship Order 1</a>
+                    </div>
+                    Cras justo odio
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="index.jsp?q=ship.jsp$orderId=3&t=Ship Order">Ship Order 3</a>
+                        
+                    </div>
+                    Cras justo odio
+                  </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>YOUR NAME Grocery Order List</title>
+<style>
+    table {
+        border: 1px solid black;
+
+  width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 3px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+</style>
+</head>
+<body>
+<h1>Order List</h1>
+<table>
+    <tr><th>Order Id</th><th>Order Date</th><th>Customer Id</th><th>Customer Name</th><th>totalAmount</th></tr>
+    <tr><td>orderId</td><td>orderDate</td><td>customerId</td><td>firstName lastName</td><td>totalAmount</td></tr>
+    <tr><td colspan = "2"></td><td><table><tr><th>Product Id</th><th>Quantity</th><th>Price</th></tr>
+    <tr><td>" + rst.getString("orderId") + "</td><td>" + rst.getString("orderDate") + "</td><td>" + rst.getString("customerId") + "</td><td>" + rst.getString("firstName") + " " +  rst.getString("lastName") + "</td><td>" + currFormat.format(rst.getDouble("totalAmount")) +"</td></tr>    
+    </td></table></tr>
+    <tr><td>orderId</td><td>orderDate</td><td>customerId</td><td>firstName lastName</td><td>totalAmount</td></tr>
+    <tr><td>" + productId + "</td><td>" + productName + "</td><td>" + qty + "</td><td>" + currFormat.format(pr) + "</td><td>" + currFormat.format(pr * qty)</td></tr>
+    <td><a href =\"showcart.jsp?delete=" + product.get(0) + \">Remove Item From Cart</a></td>
+</table>
+	
+</body>
+</html>
